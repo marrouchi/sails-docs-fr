@@ -49,7 +49,7 @@ La documentation officielle de la version stable actuelle de Sails se trouve sur
   - Views
   - extending- sails
 - contributing : Pas encore traduit
-- faq : Pas encore traduit
+- faq (100%)
 - irc : Pas encore traduit
 - reference : Pas encore traduit
 - resources/styleguide : Pas encore traduit
