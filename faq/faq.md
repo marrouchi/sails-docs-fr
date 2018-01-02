@@ -87,7 +87,7 @@ The Sails Company (les principaux mainteneurs du framework) propose des abonneme
 
 > Si vous êtes l'auteur d'un tutoriel ou d'un guide sur Sails, envoyez-nous une "pull request" [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md). (Assurez-vous d'ajouter votre didacticiel en haut de la liste, car nous essayons de les ordonner du plus récent au plus ancien.)
 
-<! -
+<!--
 Une note rapide pour toute personne contribuant à ce fichier:
 
 Tout d'abord, merci de faire un tutoriel! C'était plutôt cool de ta part.
@@ -96,54 +96,54 @@ Deuxièmement, lorsque vous ajoutez le tutoriel à l'une des listes ci-dessous, 
 
 Merci!
 - @ rachaelshaw
-->
+-->
 
 ##### Guides en plusieurs parties:
 + [Le guide du développeur JavaScript pour Sails.js] (https://www.ibm.com/developerworks/library/wa-build-deploy-web-app-sailsjs-1-bluemix/index.html) - 4 -part série d'IBM developerWorks. (Aussi disponible en [chinois] (http://www.ibm.com/developerworks/cn/web/wa-build-deploy-web-app-sailsjs-1-bluemix/) et [en japonais] (http: // www.ibm.com/developerworks/jp/web/library/wa-build-deploy-web-app-sailsjs-1-bluemix/).)
-<! - 7-12-2016 ->
+<!-- 7-12-2016 ->
 + [SailsCasts] (http://irlnathan.github.io/sailscasts/) - Courts screencasts qui vous emmènent à travers les bases de la construction de sites Web traditionnels, d'applications mono-pages / mobiles, et d'API utilisant Sails. Parfait pour les développeurs débutants, mais suppose un peu d'expérience sur MVC.
-<! - 4-4-2015 ->
+<!-- 4-4-2015 ->
 + [Canal de développement Sails.js sur Medium] (https://medium.com/sails-js-development/)
-<! - 3-19-2015 ->
+<!-- 3-19-2015 ->
 + [Sails.js Cours sur Plurasight] (https://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails)
-<! - 2-10-2015 ->
+<!-- 2-10-2015 ->
 + Sails Développement API
   + [Modèles-Datalayer, connexions, waterline] (http://www.codeproject.com/Articles/898221/Sails-API-development-Datalayer-models-connections)
   + [Méthodes personnalisées, actions prioritaires par défaut et connexes] (http://www.codeproject.com/Articles/985730/Sails-API-development-2-2-Custom-methods-overriding-default)
-<! - 5-5-2015 ->
+<!-- 5-5-2015 ->
 + Desarrollar Webapps en temps réel:
   + [Creación] (http://jorgecasar.github.io/blog/desarrollar-webapps-realtime-creacion/)
   + [Usuarios] (http://jorgecasar.github.io/blog/desarrollar-webapps-realtime-usuarios/)
   + [Auth] (http://jorgecasar.github.io/blog/desarrollar-webapps-realtime-auth/)
   + [Auth con Passport] (http://jorgecasar.github.io/blog/desarrollar-webapps-realtime-auth-con-passport/)
-<! - 1-19-2014 ->
+<!-- 1-19-2014 ->
 
 
 ##### Articles et articles de blog:
 + [Twitter Dev Blog: Guest Post: Connexion Twitter avec Sails.js] (https://blog.twitter.com/2015/guest-post-twitter-sign-in-with-treelineio)
-<! - 3-25-2015 ->
+<!-- 3-25-2015 ->
 + [Guest Post sur Segment.io Blog: Webhooks avec Slack, Segment, et Sails.js / Treeline] (https://segment.com/blog/segment-webhooks-slack/)
-<! - 15/03/2015 ->
+<!-- 15/03/2015 ->
 + [Blog Postman: Gérez votre code d'amorçage du serveur Sails.js] (http://blog.getpostman.com/2015/08/28/manage-your-sailsjs-server-bootstrap-code/)
-<! - 8-28-2015 ->
+<!-- 8-28-2015 ->
 + [Sails.js sur Heroku] (https://vort3x.me/sailsjs-heroku/)
-<! - 5-19-2015 ->
+<!-- 5-19-2015 ->
 + [Angular + Sails.js (0.10.0-rc5) avec angular-sails socket.io] (https://github.com/maartendb/angular-sails-scrum-tutorial/blob/master/README.md)
-<! - 4-14-2014 ->
+<!-- 4-14-2014 ->
 + [Angulaire + Voiles! Aide!] (Https://github.com/xdissent/spinnaker) - Sails Ressources Service pour AngularJS
-<! - 8-19-2013 ->
+<!-- 8-19-2013 ->
 + [Comment créer une application Node.js en utilisant Sails.js sur un VPS Ubuntu] (https://www.digitalocean.com/community/articles/how-to-create-an-node-js-app-using- sails-js-on-an-ubuntu-vps)
-<! - 7-16-2013 ->
+<!-- 7-16-2013 ->
 + [Travailler avec des données dans Sails.js] (http://net.tutsplus.com/tutorials/javascript-ajax/working-with-data-in-sails-js/) tutoriel sur NetTuts
-<! - 6-12-2013 ->
+<!-- 6-12-2013 ->
 
 ##### Tutoriels vidéos:
 + [Jorge Casar: Introduccion a Sails.js] (https://www.youtube.com/watch?v=7_zUNTtXtcg)
-<! - 12-17-2014 ->
+<!-- 12-17-2014 ->
 + [Sails.js - Comment afficher les vues des noeuds via Ajax, une seule page, SPA] (http://www.youtube.com/watch?v=Di50_eHqI7I&feature=youtu.be)
-<! - 29/08/2013 ->
+<!-- 29/08/2013 ->
 + [Intro to Sails.js] (https://www.youtube.com/watch?v=GK-tFvpIR7c) [@mikermcneil] (https://github.com/mikermcneil) screencast original
-<! - 2-25-2013 ->
+<!-- 2-25-2013 ->
 
 ### Comment puis-je convaincre les autres filles / gars de mon équipe?
 
