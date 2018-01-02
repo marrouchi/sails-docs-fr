@@ -2,11 +2,11 @@
 
 ### Comment la documentation se retrouve-t-elle sur le site web de Sails?
 
-La documentation est compilée à partir des fichiers markdown dans le [`sails-docs` repo sur github] (https://github.com/balderdashy/sails-docs). Un certain nombre d'utilisateurs de Sails ont exprimé leur intérêt à imiter le processus que nous utilisons pour générer les pages sur le site Web de Sails. La bonne nouvelle est simple: le processus de compilation des documents Sails implique de générer du HTML à partir des fichiers Markdown dans le repo sails-docs, puis d'effectuer des transformations supplémentaires telles que l'ajout de bulles de données, le marquage de permaliens pour chaque section de pages pour alimenter le menu de navigation latérale et paramétrer les attributs HTML <<title> `pour une meilleure visibilité des moteurs de recherche des différentes pages de document. Voir le module [doc-templater] (https://github.com/uncletammy/doc-templater) pour plus d'informations.
+La documentation est compilée à partir des fichiers markdown dans le [`sails-docs` dépôt sur github] (https://github.com/balderdashy/sails-docs). Un certain nombre d'utilisateurs de Sails ont exprimé leur intérêt à imiter le processus que nous utilisons pour générer les pages sur le site Web de Sails. La bonne nouvelle c'est que c'est simple: le processus de compilation des documents Sails implique de générer du HTML à partir des fichiers Markdown dans le dépôt sails-docs, puis d'effectuer des transformations supplémentaires telles que l'ajout de type de données "bubbles", le marquage de permaliens pour chaque section de pages pour alimenter le menu de navigation latérale et paramétrer les attributs HTML `<title>` pour une meilleure visibilité des moteurs de recherche des différentes pages de document. Voir le module [doc-templater] (https://github.com/uncletammy/doc-templater) pour plus d'informations.
 
 
 ### Où est la documentation pour les différentes versions de Sails?
-La [documentation sur le site principal] (http://sailsjs.com/documentation) est pour la dernière version stable de Npm de Sails, et est reflétée par la [branche principale du repo `sails-docs` sur github] (https : //github.com/balderdashy/sails-docs) (Maître est parfois un peu en avance, mais toutes les mises à jour de documentation critiques le font sur le site dans un jour ou deux.)
+La [documentation sur le site principal] (http://sailsjs.com/documentation) est pour la dernière version stable de Npm de Sails, et est reflétée par la [branche principale du dépôt `sails-docs` sur github] (https : //github.com/balderdashy/sails-docs) (Maître est parfois un peu en avance, mais toutes les mises à jour de documentation critiques le font sur le site dans un jour ou deux.)
 
 Pour les anciennes versions de Sails qui sont encore largement utilisées, la documentation est compilée à partir des branches `sails-docs` pertinentes et hébergée sur les sous-domaines suivants:
 + [0.12.sailsjs.com] (http://0.12.sailsjs.com/)
@@ -20,7 +20,7 @@ Il y a plusieurs façons de contribuer à Sails; Par exemple vous pouvez nous ai
 
 ### Où puis-je soumettre des idées? Signaler des problèmes?
 
-Le projet Sails suit les rapports de bogue dans les problèmes de GitHub et utilise les requêtes d'extraction pour les propositions de fonctionnalités. Veuillez lire le [guide des contributions] (http://sailsjs.com/documentation/contributing) avant de créer un problème, de soumettre une proposition ou de commencer à travailler sur une demande d'extraction.
+Le projet Sails suit les rapports de bogue dans les problèmes de GitHub et utilise les "pull request" pour les propositions de fonctionnalités. Veuillez lire le [guide des contributions] (http://sailsjs.com/documentation/contributing) avant de créer un problème, de soumettre une proposition ou de commencer à travailler sur une "pull request".
 
 
 ### Quelle version de Sails dois-je utiliser?
@@ -31,7 +31,7 @@ Le projet Sails suit les rapports de bogue dans les problèmes de GitHub et util
 
 > Remarque: pour installer / mettre à niveau localement la dernière version de Sails dans un projet existant, exécutez `npm install sails @ latest --force`. Si vous rencontrez des problèmes et que vous cherchez un bazooka, vous pouvez aussi lancer `rm -rf node_modules && npm cache effacer && npm install sails @ latest --force && npm install`.
 
-Si vous cherchez à installer une version préliminaire de Sails, vous pouvez installer à partir de la balise `beta` sur npm (c'est-à-dire` npm install sails @ beta`). C'est une excellente façon d'essayer une nouvelle version à l'avance et de commencer à la mettre à jour avant que la version ne devienne officielle. Le candidat à la version beta npm correspond à la branche `beta` du repo de Sails.
+Si vous cherchez à installer une version préliminaire de Sails, vous pouvez installer à partir de la balise `beta` sur npm (c'est-à-dire` npm install sails @ beta`). C'est une excellente façon d'essayer une nouvelle version à l'avance et de commencer à la mettre à jour avant que la version ne devienne officielle. Le candidat à la version beta npm correspond à la branche `beta` du dépôt de Sails.
 
 Enfin, si vous aimez vivre sur le fil du rasoir, ou si vous travaillez sur l'ajout d'une fonctionnalité ou la correction d'un bug dans Sails, installez la version edge à partir de la branche `master` sur github. La version edge n'est pas publiée sur le registre car elle est constamment en développement, mais vous pouvez toujours utiliser npm pour l'installer (par exemple `npm install sails @ git: // github.com / balderdashy / sails.git`)
 
@@ -40,7 +40,8 @@ Pour plus d'instructions sur l'installation des versions beta et edge de Sails, 
 
 ### J'ai du mal à installer Sails. Que devrais-je faire?
 
-Commencez par le guide de dépannage utile de NPM (https://github.com/npm/npm/wiki/Troubleshooting). Si vous continuez à avoir des problèmes et que vous avez essayé la recherche Google, mais que vous êtes toujours perplexe, veuillez lire attentivement le guide de contribution Sails [http://sailsjs.com/documentation/contributing] mis à jour, puis créer un problème GitHub dans le repo de Sails.
+Commencez par le guide de dépannage utile de NPM (https://github.com/npm/npm/wiki/Troubleshooting). Si vous continuez à avoir des problèmes et que vous avez essayé la recherche Google, mais que vous êtes toujours perplexe, veuillez lire attentivement le guide de contribution Sails [http://sailsjs.com/documentation/contributing] mis à jour, puis créer un problème GitHub dans le dépôt
+ de Sails.
 
 
 
@@ -60,7 +61,7 @@ En dehors de la [page de support sur le site Web de Sails] (http://sailsjs.com/s
 
 ### Qui d'autre utilise Sails.js?
 
-> Sails est utilisé dans la production par des particuliers et des entreprises, des organismes à but non lucratif, et des entités gouvernementales dans le monde entier, pour toutes sortes de projets (greenfield et mature). Cette petite liste ne fait absolument pas autorité, donc si vous utilisez Sails dans votre application / produit / service, nous aimerions en entendre parler! Vous pouvez soumettre une demande d'extraction en mettant à jour cette liste [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md). (Nous demandons simplement que vous respectiez l'ordre dans lequel les projets / entreprises ont été soumis, et ajoutez le vôtre à la fin de la liste.)
+> Sails est utilisé dans la production par des particuliers et des entreprises, des organismes à but non lucratif, et des entités gouvernementales dans le monde entier, pour toutes sortes de projets (greenfield et mature). Cette petite liste ne fait absolument pas autorité, donc si vous utilisez Sails dans votre application / produit / service, nous aimerions en entendre parler! Vous pouvez soumettre une "pull request" en mettant à jour cette liste [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md). (Nous demandons simplement que vous respectiez l'ordre dans lequel les projets / entreprises ont été soumis, et ajoutez le vôtre à la fin de la liste.)
 
 #### Entreprises / Organisations utilisant Sails:
 + [La ville de Paris] (http://paris.fr)
@@ -84,7 +85,7 @@ The Sails Company (les principaux mainteneurs du framework) propose des abonneme
 
 ### Quels sont les bons tutoriels communautaires?
 
-> Si vous êtes l'auteur d'un tutoriel ou d'un guide sur Sails, envoyez-nous une demande d'extraction [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md) et nous Vérifiez-le. (Assurez-vous d'ajouter votre didacticiel en haut de la liste applicable, car nous essayons de les commander du plus récent au plus ancien.)
+> Si vous êtes l'auteur d'un tutoriel ou d'un guide sur Sails, envoyez-nous une "pull request" [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md) et nous Vérifiez-le. (Assurez-vous d'ajouter votre didacticiel en haut de la liste applicable, car nous essayons de les commander du plus récent au plus ancien.)
 
 <! -
 Une note rapide pour toute personne contribuant à ce fichier:
@@ -148,7 +149,7 @@ Merci!
 
 ##### Articles / interviews / communiqués de presse / whitepapers / talks
 
-> + Si vous êtes l'auteur d'un article sur Sails, envoyez-nous une demande d'extraction [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md). Nous allons vérifier!
+> + Si vous êtes l'auteur d'un article sur Sails, envoyez-nous une "pull request" [ici] (https://github.com/balderdashy/sails-docs/edit/1.0/FAQ.md). Nous allons vérifier!
 > + Si vous êtes une entreprise intéressée à faire un communiqué de presse sur Sails, merci de contacter @mikermcneil sur Twitter (et de lui rappeler si nécessaire!) Nous ferons tout ce qui est en notre pouvoir pour vous aider.
 
 + [Microsoft Case Study: Déploiement de Sails.js sur Azure Web Apps] (https://blogs.msdn.microsoft.com/partnercatalystteam/2015/07/16/y-combinator-collaboration-deploying-sailsjs-to-azure- web-apps /)
