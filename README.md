@@ -44,7 +44,7 @@ La documentation officielle de la version stable actuelle de Sails se trouve sur
   - Routes
   - Security
   - Services
-  - Sessions
+  - Sessions (33%)
   - Testing
   - Views
   - extending- sails
